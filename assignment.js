@@ -35,15 +35,15 @@ console.log("----problem no. 3------")
         if(days <= 10){
           totalCost = days * 100;
         }else if(days <= 20 ){
-          let firstTenDayCost = 10*100;
-          let restOfTheDay = days - 10;
-          let restOfTheDayCost = restOfTheDay * 80;
+          var firstTenDayCost = 10*100;
+          var restOfTheDay = days - 10;
+          var restOfTheDayCost = restOfTheDay * 80;
           totalCost = firstTenDayCost + restOfTheDayCost;
         }else{
-          let firstTenDayCost = 10*100;
-          let secondTenDayCost = 10*80;
-          let restOfTheDay = days - 20;
-          let restOfTheDayCost = restOfTheDay * 50;
+          var firstTenDayCost = 10*100;
+          var secondTenDayCost = 10*80;
+          var restOfTheDay = days - 20;
+          var restOfTheDayCost = restOfTheDay * 50;
           totalCost = firstTenDayCost + secondTenDayCost + restOfTheDayCost;
         }
 
