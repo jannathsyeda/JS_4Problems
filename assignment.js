@@ -21,6 +21,7 @@ function budgetCalculator(w,m,l){
  return totalPrice;
 
 }
+
 var w=5;
 var m=2;
 var l=7;
